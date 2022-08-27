@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kwitter.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="kwitter.js"></script>
+<script src="kwitter_room.js"></script>
+
+    <title>Lets Chat App</title>
+</head>
+<body>
+    <center>
+   <h1 class="header">
+    Lets Chat App 
+    <sup><img src="m1.jpg"></sup>
+   </h1>
+<div class=" login_div">
+<img src="logo.jpg" class="logo">
+    <h3 >Connect With More</h3>
+    <h4 >Lets CHAT now</h4>
+    <div class="form-group">
+      <label for="user_name" style="text-align: left;" >User Name:</label>
+        <input type="text" id="user_name" class="form-control" placeholder="Username">
+
+    </div>
+    <button id="login_button" onclick="addUser()">Log in</button>
+    <br><br>
+</div>
+</center>
+</body>
+
+</html>
